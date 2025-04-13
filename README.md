@@ -191,7 +191,7 @@ revival_rate.to_excel("taxa_reativacao.xlsx")`
 
 🔹O risco de churn está em tendência de baixa, porém, considerando o aumento do churn e a queda no número total de clientes, é inevitável que este parâmetro esteja reduzido.
 
-💡 Com os dados apresentados, podemos observar um comportamento de baixa tava de recompra/reativação e uma tendência de aumento da taxa de churn ao longo dos meses. São necessário dados complementares para avaliar quais os fatores podem ter contribuído para estes resultados, como campanhas publicitárias e nível de satisfação dos clientes.
+💡 Com os dados apresentados, podemos observar um comportamento de baixa tava de recompra/reativação e uma tendência de aumento da taxa de churn ao longo dos meses. São necessários dados complementares para avaliar quais os fatores podem ter contribuído para estes resultados, como campanhas publicitárias e nível de satisfação dos clientes.
 
 
 
