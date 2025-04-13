@@ -171,8 +171,9 @@ churn_rate.to_excel("taxa_churn.xlsx")
 risk_churn_rate.to_excel("taxa_risco_churn.xlsx")
 revival_rate.to_excel("taxa_reativacao.xlsx")`
 
-![Dashboard Power BI]([caminho/para/imagem](https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9).png)
+[![Dashboard Power BI](imagens/dashboard.png)]([https://app.powerbi.com/view?r=SEU-LINK-AQUI](https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9))
 
+🔗 **Clique na imagem acima para acessar o dashboard interativo.**
 
 ##  📝Considerações Finais
 
