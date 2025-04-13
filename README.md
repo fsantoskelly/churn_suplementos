@@ -171,7 +171,8 @@ churn_rate.to_excel("taxa_churn.xlsx")
 risk_churn_rate.to_excel("taxa_risco_churn.xlsx")
 revival_rate.to_excel("taxa_reativacao.xlsx")`
 
-[![image(https://github.com/user-attachments/assets/746e2d72-3f7a-4623-b19f-228fec3bb442)](https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9)
+[![Dashboard Power BI](https://github.com/user-attachments/assets/746e2d72-3f7a-4623-b19f-228fec3bb442)](https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9)
+
 
 
 
