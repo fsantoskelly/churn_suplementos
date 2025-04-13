@@ -171,10 +171,11 @@ churn_rate.to_excel("taxa_churn.xlsx")
 risk_churn_rate.to_excel("taxa_risco_churn.xlsx")
 revival_rate.to_excel("taxa_reativacao.xlsx")`
 
-[![Dashboard Power BI](![image](https://github.com/user-attachments/assets/c3175304-d3f1-4585-b833-65a54396ae43)](https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9)
+<h2>📊 Dashboard Power BI</h2>
 
-
-
+<a href="https://app.powerbi.com/view?r=eyJrIjoiYTE2MmQ1ZDEtNDk4YS00MmNiLWIxOGItNmQyM2Y2YTRiZjA2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9" target="_blank">
+  <img src="https://github.com/user-attachments/assets/c3175304-d3f1-4585-b833-65a54396ae43" alt="Dashboard Power BI" style="max-width:100%;" />
+</a>
 
 🔗 **Clique na imagem acima para acessar o dashboard interativo.**
 
