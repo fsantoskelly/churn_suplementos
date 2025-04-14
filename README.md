@@ -5,7 +5,7 @@
 
 🛠️ Linguagem: Python
 
-🛠️ Ferramentas adicionais: Power BI
+🔧 Ferramentas adicionais: Power BI
 
 📈 Desenvolvido durante a mentoria da instrutora Renata Magner, Product Manager do Itaú
 
@@ -27,7 +27,7 @@ O `matplotlib.pyplot` foi usado para a apresentação gráfica e visualização 
 
 🔹 DateTime
 
-O `Datetime` foi utilizada para manipulação de datas em forma de números absolutos e realizar cálculos com as datas contidas no dataset.
+O `Datetime` foi utilizado para manipulação de datas em forma de números absolutos e realizar cálculos com as datas contidas no dataset.
 
 ## 🧮Desenvolvimento das análises
 
@@ -197,7 +197,7 @@ revival_rate.to_excel("taxa_reativacao.xlsx")`
 
 🔹O risco de churn está em tendência de baixa, porém, considerando o aumento do churn e a queda no número total de clientes, é inevitável que este parâmetro esteja reduzido.
 
-💡 Com os dados apresentados, podemos observar um comportamento de baixa tava de recompra/reativação e uma tendência de aumento da taxa de churn ao longo dos meses. São necessários dados complementares para avaliar quais os fatores podem ter contribuído para estes resultados, como campanhas publicitárias e nível de satisfação dos clientes.
+💡 Com os dados apresentados, podemos observar um comportamento de baixa taxa de recompra/reativação e uma tendência de aumento da taxa de churn ao longo dos meses. São necessários dados complementares para avaliar quais os fatores podem ter contribuído para estes resultados, como campanhas publicitárias e nível de satisfação dos clientes.
 
 
 
