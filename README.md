@@ -65,7 +65,6 @@ last_purchase.columns = ['user_id', 'last_purchase_date']`
 
 `df = df.merge(last_purchase, on='user_id')`
 
-
 ![image](https://github.com/user-attachments/assets/ab06180c-681c-46d7-964e-a071c007ddbb)
 
 ▸ Identificar clientes novos (primeira compra no mês):
@@ -75,6 +74,7 @@ df['purchase_month'] = df['purchase_date'].dt.to_period('M')
 df['is_new_customer'] = df['first_purchase_month'] == df['purchase_month']`
 
 🔹 **Análise da retenção**
+
 Foram considerados como clientes retidos aqueles que realizaram uma nova compra antes do período de 30 dias após a primeira compra.
 Para isto, foi criada uma coluna para verificar se houve uma compra dentro de 30 dias após a primeira compra:
 
@@ -118,6 +118,8 @@ df.drop(columns=['cliente_reativado_aux'], inplace=True)`
 
 🔹**Análise de Churn**
 
+Foram considerados os clientes que compraram apenas uma vez há mais de 90 dias, ou seja, deixaram de comprar.
+
 ▸ Os passos para avaliar a retenção e reativação são os mesmos, porém será aplicada outra regra, pois churn são os clientes não retidos, Nào reativados e que não realizaram uma outra compra até 90 dias após a primeira compra.
 
 ▸ Utilizada a data de 01-01-2024 como "Data Atual" e calcular a diferença de dias desde a última data de compra: 
@@ -152,12 +154,16 @@ churn_rate = (churn_data / total_data).fillna(0) * 100`
 
 🔹**Cálculo de taxa mensal de risco churn (%):**
 
+Os clientes que voltaram a comprar 30 dias após a primeira compra ou ser um cliente reativado, mas que está há mais de 90 dias sem voltar a comprar, foi classificado como cliente em risco de churn:
+
 `risk_churn_data = df[df['cliente_risco_churn']].groupby(df['first_purchase_date'].dt.to_period('M')).agg({'user_id': 'nunique'})
 risk_churn_rate = (risk_churn_data / total_data).fillna(0) * 100`
 
 ![image](https://github.com/user-attachments/assets/b4eaecb0-c17b-4bdb-9c24-8f916f8629e5)
 
 🔹**Cálculo de taxa mensal de reativação (%):**
+
+Clientes que já compraram,  mas retornam após algum tempo.
 
 `revival_data = df[df['cliente_reativado']].groupby(df['first_purchase_date'].dt.to_period('M')).agg({'user_id': 'nunique'})
 revival_rate = (revival_data / total_data).fillna(0) * 100`
